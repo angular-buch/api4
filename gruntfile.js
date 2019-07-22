@@ -29,8 +29,12 @@ module.exports = function(grunt) {
             dest: "./dist/package.json"
           },
           {
-            src: "./web.config",
-            dest: "./dist/web.config"
+            src: "./app.yaml",
+            dest: "./dist/app.yaml"
+          },
+          {
+            src: ".gcloudignore",
+            dest: "./dist/.gcloudignore"
           }
         ]
       }

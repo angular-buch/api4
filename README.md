@@ -37,6 +37,27 @@ Open __http://localhost:3000/__ in your browser.
 Please take care of the file `package.prod.json`.
 Keep it in sync with you development `package.json`.
 
+
+## Work in progress: Google App Engine
+
+Only once
+
+```
+brew cask install google-cloud-sdk
+gcloud init
+```
+
+Deploy manually via:
+
+```
+npm run grunt
+cd dist
+gcloud app deploy
+```
+
+https://api3-buch.appspot.com
+
+
 # License
 
 Code released under the [MIT license](LICENSE).
